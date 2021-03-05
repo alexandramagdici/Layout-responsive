@@ -13,56 +13,57 @@
         <link rel="stylesheet" type="text/css" href="resources/main.css">
     </head>
     <body>
-            <header>
-                <div class="logo">Best escapes</div>
-                <div class="menu">
-                    <a href="#">Home</a>
-                    <a href="#">Specials</a>
-                    <a href="#">Last minute</a>
-                    <a href="#">Register/Login</a>
-                </div>
-                <div id="openModal" class="menu-mobile hidden">
-                    <i class="fas fa-bars"></i>
-                </div>
+        <header>
+            <div class="logo">Best escapes</div>
+            <!-- avem un candidat bun pentru un tag semantic aici, <nav> -->
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Specials</a>
+                <a href="#">Last minute</a>
+                <a href="#">Register/Login</a>
+            </div>
+            <div id="openModal" class="menu-mobile hidden">
+                <i class="fas fa-bars"></i>
+            </div>
 
-                
-                <div id="menuModal" class="bg-active hidden">
-                    <div class="menu-mobile-modal">
-                    <div class="modal-nav">
-                            <div class="logo">Best escapes</div>
-                            <i id="closeModal"class="fas fa-times"></i>
-                        </div>
-
-                        <div class="modal-list">
-                            <a href="#">Home</a>
-                            <a href="#">Specials</a>
-                            <a href="#">Last minute</a>
-                            <a href="#">Register/Login</a>
-                        </div>
-
-                        <div class="modal-buttons">
-                            <button><i class="fab fa-instagram"></i></button>
-                            <button><i class="fab fa-facebook-f"></i></button>
-                        </div>
-                    </div> 
-                </div>
-            </header>
-               
-            <main>
-                <div class="description">
-                    <h1>travel</h1>
-                    <h2>and inspire<br> your life</h2>
-                    <div class="text-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur soluta sit, pariatur magni optio exercitationem nisi sapiente? Necessitatibus recusandae aspernatur commodi sequi iste earum? Fuga quasi nisi tempora cumque!</div>
-                    <div class="buttons-wrapper">
-                        <button><i class="fas fa-caret-left"></i></button>
-                        <button><i class="fas fa-caret-right"></i></button>
+            <!-- era mai ok structural sa il avem ca un layer paralel cu pagina, ti-am atasat un screenshot, viewport-ul nu este acoperit in intregime -->
+            <div id="menuModal" class="bg-active hidden">
+                <div class="menu-mobile-modal">
+                <div class="modal-nav">
+                        <div class="logo">Best escapes</div>
+                        <i id="closeModal"class="fas fa-times"></i>
                     </div>
+
+                    <div class="modal-list">
+                        <a href="#">Home</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Last minute</a>
+                        <a href="#">Register/Login</a>
+                    </div>
+
+                    <div class="modal-buttons">
+                        <button><i class="fab fa-instagram"></i></button>
+                        <button><i class="fab fa-facebook-f"></i></button>
+                    </div>
+                </div> 
+            </div>
+        </header>
+               
+        <main>
+            <div class="description">
+                <h1>travel</h1>
+                <h2>and inspire<br> your life</h2>
+                <div class="text-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur soluta sit, pariatur magni optio exercitationem nisi sapiente? Necessitatibus recusandae aspernatur commodi sequi iste earum? Fuga quasi nisi tempora cumque!</div>
+                <div class="buttons-wrapper">
+                    <button><i class="fas fa-caret-left"></i></button>
+                    <button><i class="fas fa-caret-right"></i></button>
                 </div>
-                    
-                <div class="picture">
-                    <img src="assets/bg.jpg" alt="Location">
-                </div>
-            </main>
+            </div>
+                
+            <div class="picture">
+                <img src="assets/bg.jpg" alt="Location">
+            </div>
+        </main>
 
         <footer>
                 <div class="nude">
@@ -70,6 +71,7 @@
                     <div>With our online personalized interface you can design the holidays of your dreams. Select the date and destination and we take care of everything.</div>
                     <div><button type="button">Start</button> </div>
                 </div>
+                <!-- ti-am atasat si aici un screenshot, pe mobile nu este tocmai corecta vizualizarea -->
                <div class="black">
                     <div>Weekend escapes</div>
                     <div>2 days, 48hours. We have the best escapes for your pleasure.</div> 
